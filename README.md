@@ -10,3 +10,5 @@ CommandSet/CommandProxyTrigger - A system that allows a trigger to call an arbit
 DialogueEmoterLink - A script that allows Pixel Crusher's dialogue system to activate a Salsa emoter script so that characters can react to third party conversations or things the player says since this is not natively supported with Dialogue's Salsa integration.
 
 Grenade - Simple pull pin grenade script.
+
+ClothingChanger/Outfit - A clothing changing component that works by activating or deactivating child meshes of the parent object according to which outfit is active. 
