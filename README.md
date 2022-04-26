@@ -12,3 +12,5 @@ DialogueEmoterLink - A script that allows Pixel Crusher's dialogue system to act
 Grenade - Simple pull pin grenade script.
 
 ClothingChanger/Outfit - A clothing changing component that works by activating or deactivating child meshes of the parent object according to which outfit is active. 
+
+CharacterAccurateHealth/AccurateHealthLabel - Extends the funtionality of Invector third person controller's damage system to account for different physiological effects on various parts of the body, including bleedout rates, poisons, differing heal rates, and others through activation of Unity events.
