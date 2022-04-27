@@ -7,6 +7,7 @@ using UnityEngine.Events;
 public class SimpleClickToMove: MonoBehaviour {
 
 public bool Enabled = true;
+public LayerMask GroundLayers;
 public int MovementMouseButton;
 public bool AutoFindCamera = true;
 public Camera NavigationCamera;
@@ -46,7 +47,7 @@ private IEnumerator WaitForClick(){
   while(true){
     if(Input.GetMouseButtonDown(MovementMouseButton) && Enabled){
       Ray ray = NavigationCamera.ScreenPointToRay(Input.mousePosition);
-      if(Physics.Raycast(ray, out RaycastHit hit, Mathf.Infinity)){
+      if(Physics.Raycast(ray, out RaycastHit hit, Mathf.Infinity, GroundLayers)){
         Move(hit.point);
       }
     }
