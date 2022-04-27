@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.Events;
 
-public class SimpleClickToMoveSinglePlayer: MonoBehaviour {
+public class SimpleClickToMove: MonoBehaviour {
 
 public bool Enabled = true;
 public int MovementMouseButton;
