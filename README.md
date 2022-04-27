@@ -18,3 +18,5 @@ CharacterAccurateHealth/AccurateHealthLabel - Extends the functionality of Invec
 GridSystem - A generic type that holds a grid of any type, has the ability to add and retrieve data and view adjacent data from any square. 
 
 ConversationPlayer - Replaces Pixel Crusher's dialogue trigger with a more flexible one to allow for changing the conversation without having to add multiple trigger components.
+
+SimpleClickToMove - A script for click to move games that sends movement coordinates to the navmesh agent
