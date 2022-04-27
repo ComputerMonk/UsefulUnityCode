@@ -16,3 +16,5 @@ ClothingChanger/Outfit - A clothing changing component that works by activating 
 CharacterAccurateHealth/AccurateHealthLabel - Extends the functionality of Invector third person controller's damage system to account for different physiological effects on various parts of the body, including bleedout rates, poisons, differing heal rates, and others through activation of Unity events.
 
 GridSystem - A generic type that holds a grid of any type, has the ability to add and retrieve data and view adjacent data from any square. 
+
+ConversationPlayer - Replaces Pixel Crusher's dialogue trigger with a more flexible one to allow for changing the conversation without having to add multiple trigger components.
