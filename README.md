@@ -13,6 +13,6 @@ Grenade - Simple pull pin grenade script.
 
 ClothingChanger/Outfit - A clothing changing component that works by activating or deactivating child meshes of the parent object according to which outfit is active. 
 
-CharacterAccurateHealth/AccurateHealthLabel - Extends the funtionality of Invector third person controller's damage system to account for different physiological effects on various parts of the body, including bleedout rates, poisons, differing heal rates, and others through activation of Unity events.
+CharacterAccurateHealth/AccurateHealthLabel - Extends the functionality of Invector third person controller's damage system to account for different physiological effects on various parts of the body, including bleedout rates, poisons, differing heal rates, and others through activation of Unity events.
 
 GridSystem - A generic type that holds a grid of any type, has the ability to add and retrieve data and view adjacent data from any square. 
